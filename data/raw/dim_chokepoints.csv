@@ -1,0 +1,6 @@
+chokepoint_id,name,corridor,lat_min,lat_max,lon_min,lon_max,baseline_transit_hrs,baseline_speed_knots,base_toll_usd,war_risk_surcharge_pct,cape_diversion_added_days
+1,Suez Canal,Mediterranean - Red Sea Connector,29.8,31.35,32.2,32.7,14.0,8.5,500000.0,15.0,12.0
+2,Bab-el-Mandeb Strait,Southern Red Sea - Gulf of Aden,12.2,13.5,43.0,44.0,6.0,14.0,0.0,125.0,14.0
+3,Strait of Malacca,Indian Ocean - South China Sea,1.0,5.5,95.0,104.5,32.0,15.0,0.0,2.5,0.0
+4,Panama Canal,Atlantic - Pacific Gateway,8.8,9.4,-80.1,-79.5,11.5,6.0,450000.0,0.0,22.0
+5,Cape of Good Hope,South Atlantic - Indian Ocean Bypass,-36.5,-33.5,17.5,21.0,24.0,13.5,0.0,0.0,0.0
