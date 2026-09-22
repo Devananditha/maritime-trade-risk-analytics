@@ -1,0 +1,43 @@
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments & IDEs
+.env
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large Datasets & Binary Stores
+data/raw/ais_telemetry_raw.csv
+data/raw/*.tgz
+data/raw/*.tar.gz
+data/raw/*.zip
+data/raw/*.zst
+data/processed/*.csv
+data/*.duckdb
+data/*.duckdb.wal
+data/*.db
+data/*.sqlite
+
+# Logs & Temporary Files
+*.log
+tmp/
+temp/
+scratch/
+
+# Preserve Directory Structure and Static Seed Tables
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/raw/dim_ports_clean.csv
+!data/raw/dim_suez_toll_tiers.csv
+!data/raw/dim_chokepoints.csv
